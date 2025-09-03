@@ -9,3 +9,15 @@ body {
   padding: 20px;
   border: 1px solid blue;
 }
+
+#Projects #Project1 {
+  text-align-last: right;
+}
+
+#Projects #Project2 {
+  text-align-last: center;
+}
+
+#Projects #CyberPlaceholder {
+  text-align-last: justify;
+}
