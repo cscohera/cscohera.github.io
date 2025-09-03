@@ -11,13 +11,13 @@ body {
 }
 
 #Projects #Project1 {
-  text-align-last: right;
+  text-align: right;
 }
 
 #Projects #Project2 {
-  text-align-last: center;
+  text-align: center;
 }
 
 #Projects #CyberPlaceholder {
-  text-align-last: justify;
+  text-align: justify;
 }
