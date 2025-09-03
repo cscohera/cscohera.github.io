@@ -18,12 +18,15 @@ body {
 
 #Project1 {
   font-size: medium;
+  text-align: left;
 }
 
 #Project2 {
   font-size: medium;
+  text-align: center;
 }
 
 #CyberPlaceholder {
   font-size: medium;
+  text-align: right;
 }
