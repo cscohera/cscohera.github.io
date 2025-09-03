@@ -5,19 +5,22 @@ body {
 
 #Introduction {
   font-size: medium;
-  background-color: lightblue;
+  background-color: #ac9e97;
   padding: 20px;
-  border: 1px solid blue;
+  border: 1px solid #f2e5cf;
 }
 
 #Projects #Project1 {
+  position: relative;
   text-align: right;
 }
 
 #Projects #Project2 {
+  position: relative;
   text-align: center;
 }
 
 #Projects #CyberPlaceholder {
+  position: relative;
   text-align: justify;
 }
