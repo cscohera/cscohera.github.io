@@ -10,19 +10,20 @@ body {
   border: 1px solid #ac9e97;
 }
 
-#Projects #Project1 {
-  position: relative;
-  text-align: right;
-  left: 30px;
+#Projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#Projects #Project2 {
-  position: relative;
-  text-align: center;
-  right: 30px;
+#Project1 {
+  font-size: medium;
 }
 
-#Projects #CyberPlaceholder {
-  position: relative;
-  text-align: justify;
+#Project2 {
+  font-size: medium;
+}
+
+#CyberPlaceholder {
+  font-size: medium;
 }
