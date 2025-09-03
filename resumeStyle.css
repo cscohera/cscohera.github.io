@@ -12,18 +12,34 @@ body {
 
 #Projects {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
 }
 
 #Project1 {
-  font-size: small;
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 50%;
 }
 
 #Project2 {
-  font-size: small;
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
 }
 
 #CyberPlaceholder {
-  font-size: small;
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  #Project1,
+  #Project2,
+  #CyberPlaceholder {
+    flex: 100%;
+  }
 }
