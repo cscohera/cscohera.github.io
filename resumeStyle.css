@@ -12,25 +12,29 @@ body {
 
 #Projects {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   flex-wrap: wrap;
   font-size: 20px;
   text-align: center;
 }
 
 #Project1 {
+  flex-direction: row;
+  justify-content: space-evenly;
   margin-top: 100px;
   padding: 10px;
   flex: 50%;
 }
 
 #Project2 {
+  flex-direction: row;
+  justify-content: space-evenly;
   padding: 10px;
   flex: 50%;
 }
 
 #CyberPlaceholder {
+  flex-direction: row;
+  justify-content: space-evenly;
   padding: 10px;
   flex: 50%;
 }
