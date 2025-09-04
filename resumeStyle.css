@@ -10,16 +10,11 @@ body {
   border: 1px solid #ac9e97;
 }
 
-#Projects {
+#Project-links {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 100px;
   padding: 10px;
-}
-
-#Project-links {
-  flex: 50%;
 }
 
 #CyberPlaceholder {
