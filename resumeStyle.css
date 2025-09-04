@@ -18,8 +18,7 @@ body {
   padding: 10px;
 }
 
-#Project1,
-#Project2 {
+#Project-links {
   flex: 50%;
 }
 
