@@ -1,9 +1,6 @@
 body {
   font-family: "Courier New", Courier, monospace;
   background-color: bisque;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #Introduction {
@@ -11,11 +8,12 @@ body {
   background-color: #f2e5cf;
   padding: 20px;
   border: 1px solid #ac9e97;
+  align-items: center;
 }
 
 .Project-links {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   order: 2;
   justify-content: space-evenly;
   padding: 10px;
