@@ -12,6 +12,8 @@ body {
 
 #Projects {
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   font-size: 20px;
   text-align: center;
