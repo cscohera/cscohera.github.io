@@ -12,6 +12,7 @@ body {
 
 .Project-links {
   display: flex;
+  list-style-type: none;
   flex-direction: column;
   order: 2;
   justify-content: space-evenly;
