@@ -10,7 +10,7 @@ body {
   border: 1px solid #ac9e97;
 }
 
-.Project-links {
+ul {
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
