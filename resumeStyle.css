@@ -16,7 +16,6 @@ ul {
   justify-content: space-evenly;
   padding: 30px;
   align-items: stretch;
-  background-color: #333333;
 }
 
 li {
@@ -24,15 +23,18 @@ li {
 }
 
 li a {
+  border-radius: 20px;
+  background-color: #f7c6b1;
   display: block;
   text-align: center;
   padding: 16px;
   text-decoration: none;
-  color: brown;
+  color: black;
 }
 
 li a:hover {
-  background-color: #111111;
+  border-radius: 10px;
+  background-color: grey;
 }
 
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
