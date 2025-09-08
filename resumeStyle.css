@@ -42,28 +42,3 @@ li a:hover {
   border-radius: 10px;
   background-color: grey;
 }
-
-#WeatherBot_Langs {
-  display: flex;
-  justify-content: space-around;
-  gap: 1em;
-  border-radius: 10px;
-}
-
-#WeatherBot_Langs #python {
-  border-radius: 10px;
-  border: 1px solid black;
-  padding: 10px;
-  background-color: #3572a5;
-  filter: brightness(50%);
-  color: #3572a5;
-}
-
-#WeatherBot_Langs #c {
-  border-radius: 10px;
-  border: 1px solid black;
-  background-color: #ff3e00;
-  padding: 10px;
-  filter: brightness(50%);
-  color: #ff3e00;
-}
