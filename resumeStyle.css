@@ -30,12 +30,12 @@ li {
 
 li a {
   border-radius: 20px;
-  background-color: #f7c6b1;
+  background-color: black;
   display: block;
   text-align: center;
   padding: 20px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 li a:hover {
