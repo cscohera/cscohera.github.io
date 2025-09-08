@@ -16,6 +16,8 @@ ul {
   justify-content: space-evenly;
   padding: 10px;
   align-items: stretch;
+  overflow: hidden;
+  background-color: #333333;
 }
 
 li {
@@ -27,13 +29,11 @@ li a {
   text-align: center;
   padding: 16px;
   text-decoration: none;
+  color: white;
 }
 
-#CyberPlaceholder {
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 10px;
-  flex: 50%;
+li a:hover {
+  background-color: #111111;
 }
 
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
