@@ -10,6 +10,12 @@ body {
   border: 1px solid #ac9e97;
 }
 
+#WeatherBot_Langs {
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+}
+
 ul {
   display: flex;
   list-style-type: none;
@@ -37,11 +43,16 @@ li a:hover {
   background-color: grey;
 }
 
-/* Responsive layout - makes a one column-layout instead of a two-column layout */
-@media (max-width: 800px) {
-  #Project1,
-  #Project2,
-  #CyberPlaceholder {
-    flex: 100%;
-  }
+#WeatherBot_Langs {
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+  border-radius: 10px;
+}
+#WeatherBot_Langs #python {
+  color: #dea584;
+}
+
+#WeatherBot_Langs #c {
+  color: green;
 }
