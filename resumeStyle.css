@@ -1,6 +1,7 @@
 body {
   font-family: "Courier New", Courier, monospace;
   background-color: bisque;
+  margin: 0;
 }
 
 #Introduction {
@@ -16,7 +17,8 @@ ul {
   margin: 0px;
   width: 130px;
   background-color: #4d4722;
-  position: fixed;
+  position: sticky;
+  top: 0;
   height: 100%;
   overflow: auto;
 }
