@@ -2,7 +2,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   background-color: bisque;
   margin: 0;
-  font-size: 1em;
+  font-size: 85%;
 }
 
 main {
@@ -56,8 +56,26 @@ li.li_nav a:hover {
   margin-bottom: 80px;
 }
 
-#Education {
+.Education {
   text-align: left;
+}
+
+.Education h1 {
+  margin-left: 8rem;
+}
+
+.school h3 {
+  text-align: center;
+}
+
+.school h4,
+.school p,
+.school ul {
+  margin-left: 1rem; /* Use consistent spacing, not arbitrary percentages */
+}
+
+.school ul {
+  list-style-type: none;
 }
 
 #Contact-info {
