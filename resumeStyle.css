@@ -10,22 +10,15 @@ body {
   border: 1px solid #ac9e97;
 }
 
-#WeatherBot_Langs {
-  display: flex;
-  justify-content: space-around;
-  gap: 1em;
-}
-
 ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
-  width: 200px;
+  width: 130px;
   background-color: #4d4722;
-}
-
-li {
-  float: left;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
 li a {
