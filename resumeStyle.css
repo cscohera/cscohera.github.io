@@ -2,13 +2,14 @@ body {
   font-family: "Courier New", Courier, monospace;
   background-color: bisque;
   margin: 0;
+  font-size: 1em;
 }
 
 main {
   margin-left: 18%;
 }
 
-ul {
+ul.ul_nav {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
@@ -19,19 +20,18 @@ ul {
   overflow: auto;
 }
 
-li a {
+li.li_nav a {
   display: block;
   padding: 8px 16px;
   text-decoration: none;
   color: white;
 }
 
-li a:hover {
+li.li_nav a:hover {
   background-color: grey;
 }
 
 #Introduction {
-  font-size: medium;
   background-color: #f2e5cf;
   padding: 20px;
   border: 1px solid #ac9e97;
@@ -42,10 +42,18 @@ li a:hover {
   text-align: center;
 }
 
+#Work-Experience ul {
+  list-style-position: inside;
+}
+
+#Work-Experience ul li {
+  text-align: left;
+}
+
 #Skills {
-  margin-top: 30px;
+  margin-top: 80px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 #Education {
@@ -53,5 +61,7 @@ li a:hover {
 }
 
 #Contact-info {
+  margin-top: 50px;
+  margin-bottom: 40px;
   text-align: center;
 }
