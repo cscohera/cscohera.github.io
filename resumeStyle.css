@@ -4,15 +4,8 @@ body {
   margin: 0;
 }
 
-#Introduction {
-  font-size: medium;
-  background-color: #f2e5cf;
-  padding: 20px;
-  border: 1px solid #ac9e97;
-}
-
 main {
-  margin-left: 15%;
+  margin-left: 25%;
 }
 
 ul {
@@ -35,4 +28,31 @@ li a {
 
 li a:hover {
   background-color: grey;
+}
+
+#Introduction {
+  font-size: medium;
+  background-color: #f2e5cf;
+  padding: 20px;
+  border: 1px solid #ac9e97;
+}
+
+#Work-Experience {
+  text-align: center;
+}
+
+#Skills {
+  text-align: right;
+}
+
+#Education {
+  text-align: left;
+}
+
+#Project {
+  text-align: left;
+}
+
+#Contact-info {
+  text-align: center;
 }
