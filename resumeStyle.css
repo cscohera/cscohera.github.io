@@ -17,11 +17,11 @@ body {
 }
 
 ul {
-  display: flex;
   list-style-type: none;
-  justify-content: space-evenly;
-  padding: 30px;
-  align-items: stretch;
+  padding: 0px;
+  margin: 0px;
+  width: 200px;
+  background-color: #4d4722;
 }
 
 li {
@@ -29,16 +29,12 @@ li {
 }
 
 li a {
-  border-radius: 20px;
-  background-color: #4d4722;
   display: block;
-  text-align: center;
-  padding: 20px;
+  padding: 8px 16px;
   text-decoration: none;
   color: white;
 }
 
 li a:hover {
-  border-radius: 10px;
   background-color: grey;
 }
