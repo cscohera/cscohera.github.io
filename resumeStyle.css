@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  margin-left: 18%;
+  margin-left: 16rem;
 }
 
 ul.ul_nav {
@@ -37,17 +37,14 @@ li.li_nav a:hover {
   border: 1px solid #ac9e97;
 }
 
-#Work-Experience {
+.Work-Experience {
   margin-top: 30px;
-  text-align: center;
-}
-
-#Work-Experience ul {
-  list-style-position: inside;
-}
-
-#Work-Experience ul li {
   text-align: left;
+}
+
+.Work-Experience ul {
+  margin: 0;
+  padding: 0;
 }
 
 #Skills {
@@ -60,22 +57,9 @@ li.li_nav a:hover {
   text-align: left;
 }
 
-.Education h1 {
-  margin-left: 8rem;
-}
-
-.school h3 {
-  text-align: center;
-}
-
-.school h4,
-.school p,
-.school ul {
-  margin-left: 1rem; /* Use consistent spacing, not arbitrary percentages */
-}
-
-.school ul {
-  list-style-type: none;
+.Education ul {
+  margin: 0;
+  padding: 0;
 }
 
 #Contact-info {
