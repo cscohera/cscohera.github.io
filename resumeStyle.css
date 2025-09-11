@@ -18,9 +18,8 @@ main {
 }
 
 img {
-  width: 100%;
-  height: auto;
-  border-radius: 0%;
+  float: right;
+  padding: 5rem;
 }
 
 ul.ul_nav {
