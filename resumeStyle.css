@@ -2,7 +2,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   background-color: bisque;
   margin: 0;
-  font-size: 13px;
+  font-size: 1vw;
 }
 
 main {
@@ -29,7 +29,7 @@ img {
   float: inline-end;
   padding: 5vw;
   margin: 3vw;
-  width: 25vw;
+  width: 26vw;
   height: 20vw;
 }
 
@@ -110,4 +110,22 @@ li.li_nav a:hover {
   margin-top: 50px;
   margin-bottom: 40px;
   text-align: center;
+}
+
+.column {
+  float: left;
+  width: 25vw;
+  padding: 0.8vw;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 15vw) {
+  .column {
+    width: 100vw;
+  }
 }
