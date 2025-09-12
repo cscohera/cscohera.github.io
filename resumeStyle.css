@@ -19,7 +19,18 @@ main {
 
 img {
   float: right;
-  padding: 5rem;
+  padding: 5vw;
+  margin: 3vw;
+  width: 20vw;
+  height: 20vw;
+}
+
+.horse_plinko {
+  float: inline-end;
+  padding: 5vw;
+  margin: 3vw;
+  width: 25vw;
+  height: 20vw;
 }
 
 ul.ul_nav {
