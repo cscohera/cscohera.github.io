@@ -20,9 +20,55 @@
       </ul>
         </nav>
     <main>
-    <section>
-        <p style="font-size: 20px; color:#1F9AFE;">
-            <a href="index.html">Back1</a>
+    <section id="wrap">
+      <h1> Discord Bot that gives daily weather updates to determine if practice is happening or not</h1>
+      <div class="left">
+      <img class="large" src="Photos/Start.jpg" alt="Picture of"/>
+    </div>
+      <p>
+      Made this Bot to tell UCF club runners the weather. This was done so that if I forgot to check Thorguard (the weather system used by UCF) club members would still know if practice was happening or not.
+      The Bot started off very simple with me learning the basics
+      I wanted to get my data from UCF's weather system Thorguard as that determines if we have practice or not. After doing some research I found I need to webscape as they did not have a API for me to pull from.
+    </p>
+    <div class="left">
+    <img class="large" src="Photos/Getting_Data.png" alt="Picture of" />
+  </div>
+    <p>
+      Once I was able to figure out what I wanted to display I started to perfect it.
+       
+    </p>
+    <div class="right">
+    <img class="large" src="Photos/Request_Conflict.png" alt="Picture of" />
+  </div>
+  <p>
+    This is when I ran into a larger problem when I had a few other officers test the bot. 
+    I couldn't pull information fast enough and multiple requests would mess up the formatting of the bot. 
+    Additonally, I hit a rate limit from discord which were to major things I needed to fix. 
+  </p>
+  <div class="right">
+    <img class="large" src="Photos/Spamming_Commands_issues.png" alt="Picture of" />
+  </div>
+  <p>
+    In order to fix both of these issues I decided to start caching weather info for 30 seconds so that if someone asks for the weather 
+    it will take the first request and requests after which will be ignored inorder to not send out unneed requests.
+  </p>
+      <p>
+      Another example of bot breaking with multiple requests:
+     
+      Here you can see the corrected solution. This was a great solution that solved both problems and one I'm very happy with.
+      
+      <img class="left" src="Photos/Adding_tomany_Requsts.png" alt="Picture of"/>
+      
+      
+      Final product: Bot can display weather at any time with the !weather command and I have also created a loop command that will display the weather 45 mins before practice everyday.
+     
+      <img class="right" src="Photos/Final_product.png" alt="Picture of" />
+    </p>
+      
+  </section>
+  <section>
+    <h1>For more information about this project check out my GitHub</h1>
+    <a class="socials" href="https://github.com/cscohera" rel="noreferrer noopener" target="_blank"><i class="fa fa-github"></i></a>
   </section>
     </main>
   </body>
