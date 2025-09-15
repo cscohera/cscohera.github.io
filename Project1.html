@@ -11,7 +11,7 @@
     <title>Resume Showcase</title>
   </head>
   <!-- Use a color pallet -->
-  <body>
+  <body id="Project1">
 
     <nav>
         <ul class="ul_nav">
@@ -22,11 +22,11 @@
         </nav>
     <main>
     <section id="wrap">
-      <h1 class="headers"> Discord Bot that gives daily weather updates to determine if practice is happening or not</h1>
+      <h1 class="headers headers_color"> Knight Runners Weather Alert Bot</h1>
       <div class="left">
         <img id="Weather_Final" src="Photos/Final_product.png" alt="Picture of" />
       </div>
-      <p>
+      <p><b>
       Made this Bot to tell UCF club runners the weather. This was done so that if I forgot to check Thorguard (the weather system used by UCF) club members would still know if practice was happening or not.
       The Bot started off very simple with me learning the basics
       I wanted to get my data from UCF's weather system Thorguard as that determines if we have practice or not. After doing some research I found I need to webscape as they did not have a API for me to pull from.
@@ -37,12 +37,13 @@
     In order to fix both of these issues I decided to start caching weather info for 30 seconds so that if someone asks for the weather 
     it will take the first request and requests after which will be ignored inorder to not send out unneed requests.
     Final product: Bot can display weather at any time with the !weather command and I have also created a loop command that will display the weather 45 mins before practice everyday.
+  </b>
     </p>
   
   </section>
   <section>
-    <h1 class="headers">For more information about this project check out my GitHub</h1>
-    <a class="socials" href="https://github.com/cscohera" rel="noreferrer noopener" target="_blank"><i class="fa fa-github"></i></a>
+    <h1 class="headers headers_color" >For more information about this project check out my GitHub</h1>
+    <a class="socials" href="https://github.com/cscohera/Running-Club-Daily-Weather-Discord-Bot" rel="noreferrer noopener" target="_blank"><i class="fa fa-github"></i></a>
   </section>
     </main>
   </body>
