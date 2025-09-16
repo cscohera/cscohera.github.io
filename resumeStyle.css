@@ -17,11 +17,6 @@ main {
   font-size: 3rem;
 }
 
-.headers {
-  margin-top: 5vw;
-  font-size: 2vw;
-}
-
 /* Image for main page */
 img {
   float: right;
@@ -152,11 +147,21 @@ li.li_nav a:hover {
   background-size: 100% auto;
 }
 
-@media only screen and (min-width: 400px) {
+#Project1.headers {
+  margin-top: 3rem;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 1300px) {
   #Project1 {
     background-image: url(Photos/stormy-weather-over-florida.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
+  }
+
+  .headers {
+    margin-top: 5rem;
+    font-size: 2rem;
   }
 }
 
