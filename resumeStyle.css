@@ -143,8 +143,9 @@ li.li_nav a:hover {
 
 #Project1 {
   background-image: url(Photos/HD-wallpaper-storm-landscape-nature.jpg);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 #Project1.headers {
