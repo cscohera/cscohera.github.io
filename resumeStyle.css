@@ -147,9 +147,17 @@ li.li_nav a:hover {
 }
 
 #Project1 {
-  background-image: url(Photos/stormy-weather-over-florida.jpg);
+  background-image: url(Photos/HD-wallpaper-storm-landscape-nature.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+@media only screen and (min-width: 400px) {
+  #Project1 {
+    background-image: url(Photos/stormy-weather-over-florida.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
 }
 
 #wrap {
@@ -157,7 +165,7 @@ li.li_nav a:hover {
 }
 
 #Weather_Final {
-  width: 32vw;
+  width: 32em;
   height: auto;
 }
 
