@@ -181,6 +181,11 @@ li.li_nav a:hover {
   #Weather_Final {
     width: 23em;
     height: auto;
+    float: center;
+  }
+
+  #wrap {
+    margin: 0em 0em;
   }
 }
 
@@ -197,8 +202,13 @@ li.li_nav a:hover {
 #wrap > p {
   text-shadow: 2px 2px #4b3b40;
   color: #ffffff;
-  margin-top: 2.5vw;
+  margin-top: 2.5em;
   margin-bottom: 2.5em;
+}
+
+#wrap > ul {
+  text-shadow: 2px 2px #4b3b40;
+  color: #ffffff;
 }
 
 #wrap p:last-child {
