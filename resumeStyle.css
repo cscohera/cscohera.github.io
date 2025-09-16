@@ -197,18 +197,43 @@ li.li_nav a:hover {
   overflow: visible;
 }
 
-/* Based on images size*/
-.small {
-  max-width: 50%;
+/* Project page 2 css*/
+.headers_color2 {
+  color: black;
+}
+
+#wrap_project2 {
+  margin: 3em 3em;
+}
+
+#Keylogger_image {
+  width: 32em;
   height: auto;
 }
 
-.medium {
-  max-width: 75%;
-  height: auto;
+/* Ensuring picture of / command fits on small screens */
+@media only screen and (max-width: 500px) {
+  #Keylogger_image {
+    width: 23em;
+    height: auto;
+    float: center;
+  }
+
+  #wrap_project2 {
+    margin: 0em 0em;
+  }
 }
 
-.large {
-  max-width: 100%;
-  height: auto;
+#wrap_project2 > p {
+  color: black;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+#wrap_project2 > ul {
+  color: black;
+}
+
+#wrap_project2 p:last-child {
+  overflow: visible;
 }
