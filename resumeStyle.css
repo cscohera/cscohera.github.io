@@ -176,6 +176,14 @@ li.li_nav a:hover {
   height: auto;
 }
 
+/* Ensuring picture of / command fits on small screens */
+@media only screen and (max-width: 500px) {
+  #Weather_Final {
+    width: 23em;
+    height: auto;
+  }
+}
+
 .left {
   float: left;
   margin-right: 1em;
