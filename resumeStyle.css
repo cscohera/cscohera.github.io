@@ -24,9 +24,7 @@ span {
 
 /* Image for main page */
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  float: right;
   padding: 5rem;
   margin: 3rem;
   width: 20rem;
