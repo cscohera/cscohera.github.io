@@ -33,13 +33,10 @@ img {
 
 @media screen and (max-width: 900px) {
   img {
+    width: 23em;
+    height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5rem;
-    margin: 3rem;
-    width: 20rem;
-    height: 20rem;
+    margin: 0 auto;
   }
 }
 /* MyCybersecurity section and images */
