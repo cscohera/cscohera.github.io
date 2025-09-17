@@ -15,17 +15,31 @@ main {
 
 .socials {
   font-size: 3rem;
+  color: #cf9033;
+}
+/* Make all spans bold */
+span {
+  font-weight: bold;
 }
 
 /* Image for main page */
 img {
   float: right;
-  padding: 5vw;
-  margin: 3vw;
-  width: 20vw;
-  height: 20vw;
+  padding: 5rem;
+  margin: 3rem;
+  width: 20rem;
+  height: 20rem;
 }
 
+@media screen and (max-width: 900px) {
+  img {
+    float: left;
+    padding: 5rem;
+    margin: 3rem;
+    width: 20rem;
+    height: 20rem;
+  }
+}
 /* MyCybersecurity section and images */
 
 .horse_plinko {
