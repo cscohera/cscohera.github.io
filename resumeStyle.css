@@ -237,15 +237,21 @@ li.indiv_skills {
 }
 
 /* Ensuring picture of / command fits on small screens */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   #Keylogger_image {
     width: 23em;
     height: auto;
-    float: center;
+    display: block;
+    margin: 0 auto;
   }
 
   #wrap_project2 {
-    margin: 0em 0em;
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
 
