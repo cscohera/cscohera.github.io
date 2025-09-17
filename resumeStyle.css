@@ -182,12 +182,16 @@ li.li_nav a:hover {
     width: 23em;
     height: auto;
     display: block;
-    margin: 0 auto; /* Center horizontally */
+    margin: 0 auto;
   }
 
   #wrap {
-    margin: 0; /* Reset margin */
+    margin: 0;
     overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
 
