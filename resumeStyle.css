@@ -33,7 +33,9 @@ img {
 
 @media screen and (max-width: 900px) {
   img {
-    float: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5rem;
     margin: 3rem;
     width: 20rem;
@@ -177,11 +179,12 @@ li.li_nav a:hover {
   #Weather_Final {
     width: 23em;
     height: auto;
-    float: center;
+    display: block; /* Ensure it's a block element */
+    margin: 0 auto; /* Center horizontally */
   }
 
   #wrap {
-    margin: 0em 0em;
+    margin: 0; /* Reset margin */
   }
 }
 
