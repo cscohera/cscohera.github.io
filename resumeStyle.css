@@ -33,10 +33,14 @@ img {
 
 @media screen and (max-width: 900px) {
   img {
-    width: 23em;
+    width: 18em;
     height: auto;
-    display: block;
-    margin: 0 auto;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
   }
 }
 /* MyCybersecurity section and images */
@@ -74,6 +78,15 @@ figcaption {
     justify-content: center;
     flex-wrap: wrap;
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .horse_plinko {
+    padding: 0;
+    margin: 1rem;
+    max-width: 100%;
+    height: auto;
   }
 }
 
