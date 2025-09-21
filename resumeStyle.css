@@ -206,7 +206,8 @@ li.li_nav a:hover {
 }
 
 #Project1 {
-  background-image: url(Photos/HD-wallpaper-storm-landscape-nature.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Photos/HD-wallpaper-storm-landscape-nature.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -219,7 +220,8 @@ li.li_nav a:hover {
 
 @media only screen and (min-width: 1300px) {
   #Project1 {
-    background-image: url(Photos/stormy-weather-over-florida.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(Photos/stormy-weather-over-florida.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
