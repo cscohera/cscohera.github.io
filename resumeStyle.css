@@ -35,7 +35,7 @@ img {
   img {
     width: 15rem;
     height: auto;
-    align-items: flex-start;
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,6 +48,19 @@ img {
 @media screen and (max-width: 600px) {
   body {
     font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  img {
+    width: 12rem;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
   }
 }
 
